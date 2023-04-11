@@ -119,8 +119,8 @@ a:active {
 	width: 100%;
 	min-height: 4rem;
 	padding: 0 1rem;
-	border-bottom: 2px solid #ffffff;
-	background-color: #f35a5a;
+	border-bottom: 2px solid #ffaa00;
+	background-color: #9e00e2;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
