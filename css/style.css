@@ -178,7 +178,7 @@ a:active {
 	.hero-header {
 	background-image: url('../images/headermobile.jpg');
 	background-size: cover;
-	
+}
 }
 
 
@@ -273,6 +273,7 @@ a:active {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
+	}
 }
 
 @media (min-width: 800px) {
