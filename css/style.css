@@ -146,8 +146,10 @@ a:active {
 ** ======================================== */
 
 .hero-header {
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/background.jpeg');
 	background-position: center top;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	min-height: 800px;
 	height: 100vh;
 	font-size: 1.25rem;
@@ -157,6 +159,28 @@ a:active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media (min-width: 320px) {
+	.hero-header {
+	background-image: url('../images/headermobile.jpg');
+	width: auto;
+  	height: 100vh;
+	
+}
+
+@media (min-width: 800px) {
+	.hero-header {
+	background-image: url('../images/headertablet.jpg');
+	height: 100vh;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero-header {
+	background-image: url('../images/background.jpeg');
+	height: 100vh;
+}
 }
 
 .hero-header__container {
@@ -183,8 +207,8 @@ a:active {
 ** ======================================== */
 
 .call-to-action {
-	background-image: url('../images/background-small.jpg');
-	background-position: center;
+	background-image: url('../images/blood-moon.jpeg');
+	background-position: center bottom;
 	background-size: cover;
 	text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 	text-align: center;
@@ -202,10 +226,13 @@ a:active {
 	margin: 0 auto;
 }
 
+
 @media (min-width: 600px) {
 	.features__container {
 		display: flex;
 		align-items: center;
+		margin-top: 3em;
+		margin-bottom: 3em;
 	}
 }
 
@@ -215,17 +242,30 @@ a:active {
 }
 
 .features__image {
-	width: 240px;
+	width: 50%;
+  	height: auto;
 	padding: 1rem;
+	display: flex;
+	justify-content: center;
 }
 
 .features__image--right {
 	order: 2;
 }
 
+@media (min-width: 320px) {
+	.features__image {
+	width: 80%;
+  	height: auto;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
 @media (min-width: 800px) {
 	.features__image {
-		width: 320px;
+	width: 50%;
+  	height: auto;
 	}
 }
 
