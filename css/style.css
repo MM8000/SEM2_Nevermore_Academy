@@ -45,6 +45,7 @@ h1,
 h2 {
 	/* Standard-Margin entfernen */
 	margin: 0;
+	
 }
 
 img {
@@ -54,6 +55,7 @@ img {
 
 p {
 	margin: 0 0 0.75rem;
+	
 }
 
 h1 {
@@ -75,6 +77,7 @@ h2 {
 	line-height: 1.1;
 	margin-bottom: 0.75rem;
 	color:#f5a300;
+	align-items: center;
 }
 
 em {
@@ -122,7 +125,7 @@ a:active {
 	width: 100%;
 	min-height: 4rem;
 	padding: 0 1rem;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #f5a300;
 	background-color: #7300d8;
 	display: flex;
 	justify-content: space-around;
@@ -130,7 +133,7 @@ a:active {
 }
 
 .navigation__item {
-	color: #ffffff;
+	color: #f5a300;
 	font-weight: 500;
 }
 
