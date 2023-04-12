@@ -26,6 +26,7 @@
 html {
 	/* Standard-Schrift definieren */
 	font: 16px/1.6 'Montserrat', sans-serif;
+	color: #ffffff;
 }
 
 @media (min-width: 600px) {
@@ -38,6 +39,16 @@ html {
 	html {
 		font-size: 20px;
 	}
+}
+
+body {
+	
+	background-image: url('../images/bodybg.jpeg');
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+	width: auto;
+  	height: 100vh;
 }
 
 body,
@@ -165,17 +176,10 @@ a:active {
 @media (min-width: 320px) {
 	.hero-header {
 	background-image: url('../images/headermobile.jpg');
-	width: auto;
-  	height: 100vh;
+	background-size: cover;
 	
 }
 
-@media (min-width: 800px) {
-	.hero-header {
-	background-image: url('../images/headertablet.jpg');
-	height: 100vh;
-	}
-}
 
 @media (min-width: 1200px) {
 	.hero-header {
@@ -274,7 +278,7 @@ a:active {
 ** ======================================== */
 
 .press {
-	background-color: #efefef;
+	background-color: #000000;
 	padding: 5rem 0;
 }
 
