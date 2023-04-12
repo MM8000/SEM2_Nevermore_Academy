@@ -252,7 +252,14 @@ a:active {
 	padding: 1rem;
 	display: flex;
 	justify-content: center;
+	transition: .5s ease;
+  backface-visibility: hidden;
+	
 }
+
+.features__image:hover {
+	opacity: 0.6;
+  }
 
 .features__image--right {
 	order: 2;
