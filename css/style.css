@@ -74,14 +74,15 @@ h2 {
 	font-size: 1.5rem;
 	line-height: 1.1;
 	margin-bottom: 0.75rem;
+	color:#f5a300;
 }
 
 em {
-	color: #f35a5a;
+	color: #7300d8;
 }
 
 a {
-	color: #f35a5a;
+	color: #7300d8;
 	text-decoration: none;
 	border-bottom: 2px solid #7300d8;
 }
@@ -99,9 +100,9 @@ a:active {
 
 .button {
 	display: inline-block;
-	background-color: #f35a5a;
-	border: 2px solid #f35a5a;
-	color: #ffffff;
+	background-color: #7300d8;
+	border: 2px solid #7300d8;
+	color: #f5a300;
 	font-weight: 500;
 	padding: 0.5rem 1rem;
 	margin-top: 0.5rem;
