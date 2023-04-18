@@ -208,6 +208,7 @@ a:active {
 
 .about__heading {
 	text-align: center;
+	margin: 1em 0 1em 0;
 }
 
 /* Abschnitt: Call To Action
@@ -396,7 +397,7 @@ a:active {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin: 6em auto;
+	margin:  auto;
 	max-width: 1080px;
   }
   
