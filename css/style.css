@@ -341,7 +341,7 @@ a:active {
 	border-top: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-/* Abschnitt: Formularseite
+/* Abschnitt: Formularseite -GPT Prompt-
 ** ======================================== */
 
 .contact-form {
@@ -387,5 +387,29 @@ a:active {
   
   .btn-submit:hover {
 	background-color: #0062cc;
+  }
+  
+  /* Abschnitt: Werwolfseite -GPT Prompt-
+** ======================================== */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 6em auto;
+	max-width: 1080px;
+  }
+  
+  .column {
+	width: 40%;
+  }
+  
+  ul {
+	padding-left: 20px;
+	list-style-type: disc;
+  }
+  
+  h2 {
+	text-align: center;
   }
   
