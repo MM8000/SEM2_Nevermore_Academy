@@ -27,6 +27,7 @@ html {
 	/* Standard-Schrift definieren */
 	font: 16px/1.6 'Montserrat', sans-serif;
 	color: #ffffff;
+	scroll-behavior: smooth;
 }
 
 @media (min-width: 600px) {
