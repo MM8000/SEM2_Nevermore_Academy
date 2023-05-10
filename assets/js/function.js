@@ -1,8 +1,10 @@
+// someTHING!
 var imgmovement = document.getElementsByClassName("thing");
 var debounceTimer;
 
 for (var i = 0; i < imgmovement.length; i++) {
   imgmovement[i].style.transition = "all 0.2s ease-in-out"; // add transition to all images
+  imgmovement[i].style.pointerEvents = "none"; // make the images click-through
 }
 
 document.onmousemove = function(event) {

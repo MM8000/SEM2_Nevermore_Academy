@@ -115,7 +115,7 @@ a:active {
 ** ======================================== */
 
 
-  .thing {
+.thing {
 	position: fixed;
   	top: 50%;
   	left: 50%;
@@ -125,6 +125,10 @@ a:active {
 	z-index: 999;
 	transition: all 0.2s ease-in-out;
 	
+  }
+  
+  .ghosting-div {
+    pointer-events: none;
   }
   
 
